@@ -24,4 +24,4 @@ function ord_alphlong($str = NUll)
     echo trim(implode(" ", $temp));
 }
 /*
-ord_alphlong("Tatb Tata tatc");*/
+ord_alphlong("Tatb Tata tatc aaaaaaaaaaa zzzzzzzzzzzzzzzzzzzz");*/
