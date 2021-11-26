@@ -21,7 +21,7 @@ function ord_alphlong($str = NUll)
     });
 
     
-    echo trim(implode(" ", $temp)) . PHP_EOL;
+    echo trim(implode(" ", $temp));
 }
 /*
 ord_alphlong("Tatb Tata tatc");*/
