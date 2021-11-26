@@ -4,7 +4,7 @@ function depth(){
     return ++$depth;
 }
 
-function count_rec_str($arr, $str, $res = [])
+function count_rec_str($arr, $str = "", $res = [])
 {
     $count = 0;
 

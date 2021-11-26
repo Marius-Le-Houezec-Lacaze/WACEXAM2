@@ -3,7 +3,7 @@
 function ord_alphlong($str = NUll)
 {
     if ($str === NULL) {
-        echo "n";
+        echo "\n";
         return NULL;
     }
     //$test =preg_replace("/[^A-Za-z ]/", '', $str);
@@ -23,3 +23,5 @@ function ord_alphlong($str = NUll)
     
     echo trim(implode(" ", $temp)) . PHP_EOL;
 }
+/*
+ord_alphlong("Tatb Tata tatc");*/
